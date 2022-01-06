@@ -23,13 +23,15 @@ const kobitonServerConfig = {
 }
 
 const desiredCaps = {
-  sessionName: 'Automation Test Session',
-  sessionDescription: 'This is an example of automation testing of an Android application',
-  deviceOrientation: deviceOrientation,
-  captureScreenshots: captureScreenshots,
-  deviceName: deviceName,
-  deviceGroup: deviceGroup,
-  platformName: platformName,
+  sessionName:        'Automation test session',
+  sessionDescription: '',
+  deviceOrientation:  'portrait',
+  captureScreenshots: true,
+  browserName:        'chrome',
+  deviceGroup:        'KOBITON',
+  deviceName:         'Google Pixel 6',
+  platformVersion:    '12',
+  platformName:       'Android',
   app: app
 }
 

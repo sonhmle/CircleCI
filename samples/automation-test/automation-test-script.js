@@ -70,11 +70,9 @@ describe('Android App sample', () => {
   })
 
   it('should show the app label', async () => {
-    const now = new Date()
-    const current = now.getHours() + ":" + now.getMinutes()
     await driver.elementByClassName("android.widget.TextView")
       .text().then(function (text) {
-        assert.equal(text.toLocaleLowerCase().length, 5)
+        assert.equal(text.toLocaleLowerCase().includes(':'), true)
       })
   })
 

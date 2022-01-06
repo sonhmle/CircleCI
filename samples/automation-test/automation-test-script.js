@@ -17,8 +17,8 @@ const platformName = process.env.KOBITON_DEVICE_PLATFORM_NAME || 'Android'
 const groupId = Number(process.env.KOBITON_ORGANIZATION_GROUP_ID)
 
 const kobitonServerConfig = {
-  protocol: 'http:',
-  host: 'api.kobiton.com',
+  protocol: 'https',
+  host: 'api-test.kobiton.com',
   auth: `${username}:${apiKey}`
 }
 
@@ -27,10 +27,10 @@ const desiredCaps = {
   sessionDescription: '',
   deviceOrientation: 'portrait',
   captureScreenshots: true,
-  browserName: 'chrome',
+  browserName: '',
   deviceGroup: 'KOBITON',
-  deviceName: 'Google Pixel 6',
-  platformVersion: '12',
+  deviceName: 'Galaxy A10e',
+  platformVersion: '10',
   platformName: 'Android',
   autoWebview: true
 }

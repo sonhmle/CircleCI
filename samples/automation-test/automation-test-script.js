@@ -29,8 +29,8 @@ const desiredCaps = {
   captureScreenshots: true,
   browserName: '',
   deviceGroup: 'KOBITON',
-  deviceName: 'Galaxy A10e',
-  platformVersion: '10',
+  deviceName: 'Galaxy S10',
+  platformVersion: '9',
   platformName: 'Android',
   autoWebview: true,
   app: app

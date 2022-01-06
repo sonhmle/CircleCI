@@ -32,7 +32,8 @@ const desiredCaps = {
   deviceName: 'Galaxy A10e',
   platformVersion: '10',
   platformName: 'Android',
-  autoWebview: true
+  autoWebview: true,
+  app: app
 }
 
 let driver

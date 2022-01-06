@@ -23,16 +23,16 @@ const kobitonServerConfig = {
 }
 
 const desiredCaps = {
-  sessionName:        'Automation test session',
+  sessionName: 'Automation test session',
   sessionDescription: '',
-  deviceOrientation:  'portrait',
+  deviceOrientation: 'portrait',
   captureScreenshots: true,
-  browserName:        'chrome',
-  deviceGroup:        'KOBITON',
-  deviceName:         'Google Pixel 6',
-  platformVersion:    '12',
-  platformName:       'Android',
-  app: app
+  browserName: 'chrome',
+  deviceGroup: 'KOBITON',
+  deviceName: 'Google Pixel 6',
+  platformVersion: '12',
+  platformName: 'Android',
+  autoWebview: true
 }
 
 let driver

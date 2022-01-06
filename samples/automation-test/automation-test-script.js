@@ -32,7 +32,6 @@ const desiredCaps = {
   deviceName: 'Galaxy S10',
   platformVersion: '9',
   platformName: 'Android',
-  autoWebview: true,
   app: app
 }
 
